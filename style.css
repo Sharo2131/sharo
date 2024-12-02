@@ -1,0 +1,36 @@
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	text-align: left;
+	font-size: large;
+}
+.auto-style3 {
+	border: 2px solid #000080;
+	margin-left: 295px;
+}
+.auto-style5 {
+	text-align: center;
+	font-size: xx-large;
+}
+a:link {
+color:
+
+
+navy;
+}
+a:visited {
+	color:purple;
+}
+a:active{
+	color:red;
+}
+.auto-style6 {
+	border-style: solid;
+	border-color: #000080;
+}
+.auto-style7 {
+	border-style: solid;
+	border-color: #000080;
+	text-align: center;
+}
