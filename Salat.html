@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slat</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Salats</h1>
+    <div class="Container">
+        <div class="A">
+            <img src="image/Caeser.jpg" alt="Caeser" onclick="showDrinkDetails('Caeser salat', '$7.00')">
+            <p class="price">$4.00</p>
+        </div>
+        <div class="B">
+            <img src="image/chickenavogado.jpg" alt="Chicken avogado" onclick="showDrinkDetails('Chicken avogado', '$8.50')">
+            <p class="price">$3.50</p>
+        </div>
+        <div class="C">
+            <img src="image/mixed.jpg" alt="Mixed" onclick="showDrinkDetails('Mxed salat', '$9.00', )">
+            <p class="price">$5.00</p>
+        </div>
+    </div>
+    <!-- Add this button inside the body of your page -->
+<a href="index.html">
+    <button class="return-btn"><strong>Return to Main Page</strong></button>
+</a>
+
+    <div id="detailsBox" class="details-box"></div>
+    <script src="script1.js"></script>
+</body>
+</html>
