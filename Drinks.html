@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Drinks</h1>
+    <div class="Container">
+        <div class="A">
+            <img src="image/bluesky.jpg" alt="Blue Sky" onclick="showDrinkDetails('Blue Sky', '$4.00', 'A refreshing soda with a hint of citrus.')">
+            <p class="price">$4.00</p>
+        </div>
+        <div class="B">
+            <img src="image/strawbery.jpg" alt="Strawberry" onclick="showDrinkDetails('Strawberry', '$3.50', 'A delicious strawberry smoothie made with fresh berries.')">
+            <p class="price">$3.50</p>
+        </div>
+        <div class="C">
+            <img src="image/redbul.jpg" alt="Redbull" onclick="showDrinkDetails('Redbull', '$5.00', 'Energy drink to keep you energized throughout the day.')">
+            <p class="price">$5.00</p>
+        </div>
+    </div>
+
+    <!-- Add this button inside the body of your page -->
+<a href="index.html">
+    <button class="return-btn"><strong>Return to Main Page</strong></button>
+</a>
+
+    <div id="detailsBox" class="details-box"></div>
+    <script src="script1.js"></script>
+</body>
+</html>
